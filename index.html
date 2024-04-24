@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>the Artistry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <nav id="nav" class="nav">
+        <div class="nav__menu">
+          <ul class="nav__left">
+            <li><a class="price" href="#price">Прайс</a></li>
+            <li><a class="works" href="#works">Отзывы</a></li>
+            <li><a class="contacts" href="#contacts">Контакты</a></li>
+          </ul>
+          <div class="nav__right">
+            <a href="#!" target="_blank"><img src="./images/vk.svg" alt="vk"></a>
+            <a href="#!" target="_blank"><img src="./images/instagram.svg" alt="instagram"></a>
+          </div>
+        </div>
+        <button id="nav-btn" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+
+      <div class="main__header">
+        <div class="header__logo">
+          <img src="./images/logo.svg" alt="Artistry">
+        </div>
+        <div class="buttons">
+          <a href="#contacts" class="btn sing-up">Записаться</a>
+          <a href="#contacts" class="btn bonus-card">оформить бонусную карту</a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section id="price" class="rate">
+      <div class="container">
+        <ul class="rate__items">
+          <li class="rate__title rate__title--active" data-tab="tab-1">маникюр</li>
+          <li class="rate__title" data-tab="tab-2">педикюр</li>
+          <li class="rate__title" data-tab="tab-3">ресницы</li>
+          <li class="rate__title" data-tab="tab-4">брови</li>
+        </ul>
+        <div class="rate__price">
+          <ul id="tab-1" class="rate__block" data-tab="1">
+            <li>
+              <p>Маникюр без покрытия</p>
+              <p>1100 ₽</p>
+            </li>
+            <li>
+              <p>Маникюр с покрытием гель-лак (снятие наращивания входит в стоимость)</p>
+              <p>1900 ₽</p>
+            </li>
+            <li>
+              <p>Маникюр с покрытием лак</p>
+              <p>1400 ₽</p>
+            </li>
+            <li>
+              <p>Ремонт 1 ногтя</p>
+              <p>100 ₽</p>
+            </li>
+            <li>
+              <p>Наращивание 1 ногтя</p>
+              <p>200 ₽</p>
+            </li>
+            <li>
+              <p>Укрепление ногтей пудрой</p>
+              <p>300 ₽</p>
+            </li>
+            <li>
+              <p>Лечебное покрытие IBX</p>
+              <p>300 ₽</p>
+            </li>
+            <li>
+              <p>Парафинотерапия рук</p>
+              <p>600 ₽</p>
+            </li>
+            <li>
+              <p>Мужской маникюр</p>
+              <p>1100 ₽</p>
+            </li>
+            <li>
+              <p>Французское | лунное покрытие</p>
+              <p>500 ₽</p>
+            </li>
+            <li>
+              <p>Втирка | стразы | простой дизайн</p>
+              <p>от 100 ₽</p>
+            </li>
+            <li>
+              <p>Дизайн 1 ногтя сложный</p>
+              <p>250 ₽</p>
+            </li>
+            <li>
+              <p>СЕТ ПРЕМИУМ В 4 РУКИ доплата</p>
+              <p>400 ₽</p>
+            </li>
+            <li>
+              <p>СЕТ ПРЕМИУМ В 6 РУК доплата</p>
+              <p>600 ₽</p>
+            </li>
+          </ul>
+          <ul id="tab-2" class="rate__block hidden" data-tab="2">
+            <li>
+              <p>Педикюр гигиенический SMART (обработка пальцев + полная обработка стопы)</p>
+              <p>2400 ₽</p>
+            </li>
+            <li>
+              <p>Экспресс педикюр (обработка пальцев ног)</p>
+              <p>1600 ₽</p>
+            </li>
+            <li>
+              <p>Педикюр SMART с покрытием гель-лак (снятие входит в стоимость)</p>
+              <p>2400 ₽</p>
+            </li>
+            <li>
+              <p>Экспресс педикюр с покрытием гель-лак</p>
+              <p>2100 ₽</p>
+            </li>
+            <li>
+              <p>Покрытие лак</p>
+              <p>300 ₽</p>
+            </li>
+            <li>
+              <p>Французское | лунное покрытие</p>
+              <p>500 ₽</p>
+            </li>
+            <li>
+              <p>Втирка | стразы | простой дизайн</p>
+              <p>от 100 ₽</p>
+            </li>
+            <li>
+              <p>Дизайн 1 ногтя сложный</p>
+              <p>250 ₽</p>
+            </li>
+            <li>
+              <p>СЕТ ПРЕМИУМ В 4 РУКИ доплата</p>
+              <p>400 ₽</p>
+            </li>
+            <li>
+              <p>СЕТ ПРЕМИУМ В 6 РУК доплата</p>
+              <p>600 ₽</p>
+            </li>
+          </ul>
+          <ul id="tab-3" class="rate__block hidden" data-tab="3">
+            <li>
+              <p>Наращивание ресниц классическое</p>
+              <p>2100 ₽</p>
+            </li>
+            <li>
+              <p>Наращивание ресниц 1.5D</p>
+              <p>2400 ₽</p>
+            </li>
+            <li>
+              <p>Наращивание ресниц 2D</p>
+              <p>2600 ₽</p>
+            </li>
+            <li>
+              <p>Наращивание ресниц 3D</p>
+              <p>2900 ₽</p>
+            </li>
+            <li>
+              <p>Снятие нашей работы с последующим наращиванием</p>
+              <p>бесплатно</p>
+            </li>
+            <li>
+              <p>Снятие чужой работы с последующим наращиванием</p>
+              <p>300 ₽</p>
+            </li>
+            <li>
+              <p>Снятие ресниц</p>
+              <p>500 ₽</p>
+            </li>
+            <li>
+              <p>Коррекция ресниц</p>
+              <p>500 ₽ от стоимости наращивания</p>
+            </li>
+            <li>
+              <p>Окрашивание ресниц</p>
+              <p>500 ₽</p>
+            </li>
+            <li>
+              <p>Ламинирование ресниц</p>
+              <p>1800 ₽</p>
+            </li>
+          </ul>
+          <ul id="tab-4" class="rate__block hidden" data-tab="4">
+            <li>
+              <p>Коррекция + окрашивание краской | хной</p>
+              <p>1100 ₽</p>
+            </li>
+            <li>
+              <p>Коррекция</p>
+              <p>700 ₽</p>
+            </li>
+            <li>
+              <p>Окрашивание краской | хной</p>
+              <p>600 ₽</p>
+            </li>
+            <li>
+              <p>Ламинирование</p>
+              <p>1400 ₽</p>
+            </li>
+            <li>
+              <p>Ламинирование + коррекция + окрашивание</p>
+              <p>1900 ₽</p>
+            </li>
+            <li>
+              <p>Ботокс (счастье для бровей)</p>
+              <p>400 ₽</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="works">
+      <div class="container-works">
+        <h2 class="title works__title">Наши работы</h2>
+        <div class="works__inner">
+          <div class="works__list">
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/1.jpg" alt="nails">
+            </div>
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/2.jpg" alt="nails">
+            </div>
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/3.jpg" alt="nails">
+            </div>
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/4.jpg" alt="nails">
+            </div>
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/5.jpg" alt="nails">
+            </div>
+            <div class="works__list-item">
+              <img class="works__list-img" src="images/works/6.jpg" alt="nails">
+            </div>
+          </div>
+          <div class="work__pop-up">
+            <span>&times;</span>
+            <img class="work__pop-img" src="images/works/1.jpg" alt="nails">
+          </div>
+        </div>
+
+        <div class="swiper swiper__inner">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/1.jpg" alt="nails">
+            </div>
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/2.jpg" alt="nails">
+            </div>
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/3.jpg" alt="nails">
+            </div>
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/4.jpg" alt="nails">
+            </div>
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/5.jpg" alt="nails">
+            </div>
+            <div class="swiper-slide swiper__item">
+              <img src="./images/works/6.jpg" alt="nails">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="rules">
+      <div class="container">
+        <div class="rules__inner">
+          <h2 class="title rules__title">Правила посещения студии</h2>
+          <div class="rules__accordeon">
+            <div class="accordeon__item">
+              <div class="accordeon__trigger">
+                <p class="accordeon__trigger-title">Опоздание</p>
+                <img src="./images/accodeon__down.svg" alt="arrow">
+              </div>
+              <div class="accordeon__content">
+                <p>
+                  Уважайте нас и себя, не опаздывайте.
+                </p>
+                <p>
+                  В случае опоздания клиента на процедуру на 15 минут, процедура сокращается на время опоздания и может
+                  быть изменена, чтобы не задерживать следующего по записи клиента.
+                </p>
+                <p>
+                  При опоздании клиента на процедуру белее, чем на 20 мин, администратор Салона имеет право отдать
+                  «время процедуры» другому клиенту, или отказать в оказании услуги, по причине возможного оказания
+                  некачественной услуги. Либо предложить другую услугу, которая не помешает следующему клиенту попасть к
+                  специалисту вовремя.
+                </p>
+              </div>
+            </div>
+            <div class="accordeon__item">
+              <div class="accordeon__trigger">
+                <p class="accordeon__trigger-title">Подтверждение записи</p>
+                <img src="./images/accodeon__down.svg" alt="arrow">
+              </div>
+              <div class="accordeon__content">
+                <p>
+                  Администратор звонит или отправляет сообщение Клиенту с напоминанием о записи для подтверждения
+                  визита, если Клиент не берет трубку, не перезванивает в Салон, и не отвечает на сообщение, Салон
+                  вправе аннулировать запись Клиента считая ее неподтвержденной.
+                </p>
+                <p>
+                  В случае отказа от забронированного времени на услуги, необходимо сообщить об этом не менее, чем за
+                  10- 12 часов.
+                </p>
+                <p>
+                  Пожалуйста при записи уточняйте приблизительную стоимость услуги у администратора Студии.
+                </p>
+              </div>
+            </div>
+            <div class="accordeon__item">
+              <div class="accordeon__trigger">
+                <p class="accordeon__trigger-title">Ожидание и приход раньше времени</p>
+                <img src="./images/accodeon__down.svg" alt="arrow">
+              </div>
+              <div class="accordeon__content">
+                <p>
+                  Для ожидания специально оборудована мягкая зона. Не нужно пытаться ожидать в рабочем зале на свободных
+                  местах мастеров.
+                </p>
+                <p>
+                  Пожалуйста, не приходите раньше назначенного времени более чем на 15-20 минут.
+                </p>
+              </div>
+            </div>
+            <div class="accordeon__item">
+              <div class="accordeon__trigger">
+                <p class="accordeon__trigger-title">Предоплата 50%</p>
+                <img src="./images/accodeon__down.svg" alt="arrow">
+              </div>
+              <div class="accordeon__content">
+                <p>
+                  Запись новых клиентов на длительные услуги ( более 3х часов)
+                </p>
+                <p>
+                  Запись на предпраздничную неделю с 20 по 30 декабря; (предоплата не возвращается, если клиент не
+                  отменил запись за 48 часов)
+                </p>
+                <p>
+                  Запись постоянно срывающих визиты (если клиент не пришел по записи более одного раза, предоплата не
+                  возвращается)
+                </p>
+                <p>
+                  Индивидуальный заказ на косметику.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <div class="contacts__inner">
+          <div class="contacts__info">
+            <h2 class="contacts__info-title title">контакты</h2>
+            <p class="contacts__info-address">Среднерогатская, 13, к.2, стр.1</p>
+            <a class="contacts__info-phone" href="tel:+79119455757">+7 (911) 945-57-57</a>
+            <div class="contacts__info-soc">
+              <a href="#" target="_blank"><img src="./images/vk-black.svg" alt="vk"></a>
+              <a href="#" target="_blank"><img src="./images/instagram-black.svg" alt="instagram"></a>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2005.656914518727!2d30.329769463661158!3d59.82161932304167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696258d8383f19d%3A0x45839325843f5b83!2z0KHRgNC10LTQvdC10YDQvtCz0LDRgtGB0LrQsNGPINGD0LsuLCAxM9C6MiwgMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NjE1OA!5e0!3m2!1sru!2sru!4v1713020268090!5m2!1sru!2sru"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copy">© The Artistry 2024</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
